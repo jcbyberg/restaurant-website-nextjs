@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
@@ -12,40 +13,30 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 bg-white shadow-lg z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
-        <Link href="/" className="text-3xl font-extrabold text-sunset">
-          Bite&Dine
+        <Link
+          href="/"
+          className="flex items-center gap-2 text-3xl font-extrabold text-black"
+        >
+          <Image
+            src="/stone-oven.svg"
+            alt="Stone oven logo"
+            width={40}
+            height={40}
+            priority
+            className="h-10 w-10"
+          />
+          <span>La Pietra</span>
         </Link>
         <nav className="hidden md:flex space-x-6">
-          <a
-            href="#home"
-            className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
-          >
-            Home
-          </a>
-          <a
-            href="#dishes"
-            className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
-          >
-            Dishes
-          </a>
-          <a
-            href="#about"
-            className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
-          >
-            About
-          </a>
+          
+          
           <a
             href="#menu"
             className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
           >
             Menu
           </a>
-          <a
-            href="#review"
-            className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
-          >
-            Review
-          </a>
+          
           <a
             href="#order"
             className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
@@ -89,12 +80,7 @@ const Header = () => {
             >
               Home
             </a>
-            <a
-              href="#dishes"
-              className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
-            >
-              Dishes
-            </a>
+            
             <a
               href="#about"
               className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
@@ -111,7 +97,7 @@ const Header = () => {
               href="#review"
               className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
             >
-              Review
+              Reviews
             </a>
             <a
               href="#order"

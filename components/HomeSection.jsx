@@ -8,15 +8,14 @@ const HomeSection = () => {
     >
       <div className="flex-1">
         <h2 className="text-5xl text-sunset font-bold mb-4">
-          Satisfy Your Cravings <br />
-          Anytime, Anywhere
+          Local Ingredients <br /> Stone-Fired <br />
+          
         </h2>
         <p className="text-lg text-lightColor mb-6">
-          Craving something delicious? We've got you covered. Freshly prepared
-          meals, delivered right to your doorstep.
-        </p>
+          Craving something remarkable? Experience all-Canadian, stone-fired pizza—slow-fermented dough, seasonal toppings, and big flavour. 
+          </p>
         <button className="bg-sunset text-white px-6 py-3 rounded hover:bg-jellyBeanBlue transition">
-          Discover Food
+          Discover More
         </button>
       </div>
       <div className="flex-1 relative mt-8 md:mt-0 w-full h-[400px]">
@@ -26,7 +25,7 @@ const HomeSection = () => {
           className="absolute w-[80%] h-auto rounded object-cover"
           style={{
             animation:
-              "imageSwitch 15s steps(1) infinite 0s, rotate 3s linear infinite",
+              "imageSwitch 15s steps(1) infinite 0s, rotate 9s linear infinite",
           }}
         />
         <img
@@ -35,7 +34,7 @@ const HomeSection = () => {
           className="absolute w-[80%] h-auto rounded object-cover"
           style={{
             animation:
-              "imageSwitch 15s steps(1) infinite 5s, rotate 3s linear infinite",
+              "imageSwitch 15s steps(1) infinite 5s, rotate 9s linear infinite",
           }}
         />
         <img
@@ -44,7 +43,7 @@ const HomeSection = () => {
           className="absolute w-[80%] h-auto rounded object-cover"
           style={{
             animation:
-              "imageSwitch 15s steps(1) infinite 10s, rotate 3s linear infinite",
+              "imageSwitch 15s steps(1) infinite 10s, rotate 9s linear infinite",
           }}
         />
       </div>
