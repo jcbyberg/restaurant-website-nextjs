@@ -73,7 +73,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="#" className="text-gray-600 hover:text-sunset">
-                <i className="fas fa-map mr-2"></i>69/a, Mirpur, Dhaka 1234
+                <i className="fas fa-map mr-2"></i>3000, Simcoe St, Toronto, ON
               </a>
             </li>
           </ul>
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-8 border-t pt-4 flex flex-col md:flex-row justify-between items-center max-w-6xl mx-auto px-4">
-        <p className="text-gray-600">© 2025 Bite&Dine. All rights reserved.</p>
+        <p className="text-gray-600">© 2025 LaPietra. All rights reserved.</p>
         <div className="flex space-x-4">
           <a href="#" className="text-gray-600 hover:text-sunset">
             Privacy Policy
