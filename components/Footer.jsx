@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 py-8">
+    <footer id="footer" className="bg-gray-100 py-8">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div>
-          <h3 className="text-xl font-bold text-gray-800 mb-4">Our Branches</h3>
+          <h3 className="text-xl font-bold text-gray-800 mb-4">Our Locations</h3>
           <ul className="space-y-2">
             <li>
               <a href="#" className="text-gray-600 hover:text-sunset">
@@ -46,7 +46,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#menu" className="text-gray-600 hover:text-sunset">
+              <a href="#dishes" className="text-gray-600 hover:text-sunset">
                 Menu
               </a>
             </li>
@@ -60,7 +60,7 @@ const Footer = () => {
                 href="tel:+8801234567890"
                 className="text-gray-600 hover:text-sunset"
               >
-                <i className="fas fa-phone mr-2"></i>+880 1234 567-890
+                <i className="fas fa-phone mr-2"></i> 416 999-9999
               </a>
             </li>
             <li>
@@ -68,7 +68,7 @@ const Footer = () => {
                 href="mailto:info@biteanddine.com"
                 className="text-gray-600 hover:text-sunset"
               >
-                <i className="fas fa-envelope mr-2"></i>info@biteanddine.com
+                <i className="fas fa-envelope mr-2"></i>info@lapietra.com
               </a>
             </li>
             <li>

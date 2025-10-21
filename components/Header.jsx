@@ -4,11 +4,8 @@ import Image from "next/image";
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
-  const [searchActive, setSearchActive] = useState(false);
 
   const toggleNav = () => setNavActive(!navActive);
-  const openSearch = () => setSearchActive(true);
-  const closeSearch = () => setSearchActive(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white shadow-lg z-50">
@@ -31,32 +28,43 @@ const Header = () => {
           
           
           <a
-            href="#menu"
+            href="#dishes"
             className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
           >
             Menu
           </a>
           
           <a
-            href="#order"
+            href="#footer"
             className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
           >
-            Order
+            Contact
           </a>
         </nav>
-        <div className="flex items-center space-x-4">
-          <button
-            onClick={openSearch}
-            className="text-2xl text-sunset transition-colors duration-300 hover:text-jellyBeanBlue"
-          >
-            <i className="fas fa-search"></i>
-          </button>
-          <a
-            href="#"
-            className="text-2xl text-sunset transition-colors duration-300 hover:text-jellyBeanBlue"
-          >
-            <i className="fas fa-heart"></i>
-          </a>
+        <div className="flex items-center space-x-3">
+          <div className="hidden md:flex items-center space-x-3">
+            <a
+              href="#"
+              className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center hover:bg-jellyBeanBlue transition-colors"
+              aria-label="Facebook"
+            >
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="#"
+              className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center hover:bg-jellyBeanBlue transition-colors"
+              aria-label="Twitter"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a
+              href="#"
+              className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center hover:bg-jellyBeanBlue transition-colors"
+              aria-label="Instagram"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
           <button
             onClick={toggleNav}
             className="md:hidden text-2xl text-sunset transition-colors duration-300 hover:text-jellyBeanBlue"
@@ -82,7 +90,7 @@ const Header = () => {
               About
             </a>
             <a
-              href="#menu"
+              href="#dishes"
               className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
             >
               Menu
@@ -94,31 +102,38 @@ const Header = () => {
               Reviews
             </a>
             <a
-              href="#order"
+              href="#footer"
               className="text-lg font-medium text-gray-600 hover:text-white hover:bg-jellyBeanBlue transition duration-300 px-3 py-2 rounded-lg"
             >
-              Order
+              Contact
             </a>
+            <div className="flex space-x-4 pt-4">
+              <a
+                href="#"
+                className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center hover:bg-jellyBeanBlue transition-colors"
+                aria-label="Facebook"
+              >
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="#"
+                className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center hover:bg-jellyBeanBlue transition-colors"
+                aria-label="Twitter"
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a
+                href="#"
+                className="w-8 h-8 bg-black text-white rounded-full flex items-center justify-center hover:bg-jellyBeanBlue transition-colors"
+                aria-label="Instagram"
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
+            </div>
           </nav>
         </div>
       )}
 
-      {searchActive && (
-        <div className="absolute top-20 right-6 bg-white shadow-xl p-3 rounded-lg flex items-center space-x-2 transition duration-300">
-          <input
-            type="text"
-            placeholder="Search..."
-            className="border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-jellyBeanBlue"
-            autoFocus
-          />
-          <button
-            onClick={closeSearch}
-            className="text-xl text-gray-600 hover:text-sunset transition-colors duration-300"
-          >
-            &times;
-          </button>
-        </div>
-      )}
     </header>
   );
 };
