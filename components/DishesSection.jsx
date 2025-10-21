@@ -3,9 +3,8 @@ import React from "react";
 const DishesSection = () => {
   return (
     <section id="dishes" className="py-16 px-8">
-      <h3 className="text-center text-2xl text-jellyBeanBlue">Our Dishes</h3>
       <h1 className="text-center text-3xl text-sunset uppercase mb-8">
-        Popular Dishes
+        Menu
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {/* Dish Card 1 */}

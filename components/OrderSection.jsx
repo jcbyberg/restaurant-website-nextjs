@@ -40,8 +40,8 @@ const OrderSection = () => {
         <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
           <div className="flex-1">
             <label className="block text-gray-700 mb-1">Order</label>
-            <select className="w-full p-2 border rounded">
-              <option disabled selected>
+            <select className="w-full p-2 border rounded" defaultValue="">
+              <option disabled value="">
                 Select your food
               </option>
               <option>Beef Lovers Pizza</option>
@@ -53,8 +53,8 @@ const OrderSection = () => {
           </div>
           <div className="flex-1">
             <label className="block text-gray-700 mb-1">Additional Food</label>
-            <select className="w-full p-2 border rounded">
-              <option disabled selected>
+            <select className="w-full p-2 border rounded" defaultValue="">
+              <option disabled value="">
                 Select Sides
               </option>
               <option>French Fries</option>

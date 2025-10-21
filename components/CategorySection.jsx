@@ -12,13 +12,13 @@ const CategorySection = () => {
             alt="Beef Delight Burger"
             className="mx-auto w-24 h-24 rounded-full shadow mb-4"
           />
-          <h1 className="text-center font-bold text-lg">Beef Delight Burger</h1>
+          <h1 className="text-center font-bold text-lg text-lightColor">Beef Delight Burger</h1>
           <p className="text-center text-sm text-lightColor my-2">
             Grilled twin beef patty with bacon, cheese and fresh ingredients
             creating a delightful experience.
           </p>
           <div className="flex justify-between items-center">
-            <span className="font-semibold">$9.99</span>
+            <span className="font-semibold text-lightColor">$9.99</span>
             <button>
               <i className="fas fa-plus-circle text-sunset text-xl"></i>
             </button>
@@ -32,7 +32,7 @@ const CategorySection = () => {
             alt="Chicken Cutlet with fries"
             className="mx-auto w-24 h-24 rounded-full shadow mb-4"
           />
-          <h1 className="text-center font-bold text-lg">
+          <h1 className="text-center font-bold text-lg text-lightColor">
             Chicken Cutlet with fries
           </h1>
           <p className="text-center text-sm text-lightColor my-2">
@@ -40,7 +40,7 @@ const CategorySection = () => {
             the side.
           </p>
           <div className="flex justify-between items-center">
-            <span className="font-semibold">$12.99</span>
+            <span className="font-semibold text-lightColor">$12.99</span>
             <button>
               <i className="fas fa-plus-circle text-sunset text-xl"></i>
             </button>
@@ -54,13 +54,13 @@ const CategorySection = () => {
             alt="Beef Lovers Pizza"
             className="mx-auto w-24 h-24 rounded-full shadow mb-4"
           />
-          <h1 className="text-center font-bold text-lg">Beef Lovers Pizza</h1>
+          <h1 className="text-center font-bold text-lg text-lightColor">Beef Lovers Pizza</h1>
           <p className="text-center text-sm text-lightColor my-2">
             A traditional meaty pizza topped with fresh tomatoes, mozzarella and
             olives.
           </p>
           <div className="flex justify-between items-center">
-            <span className="font-semibold">$14.99</span>
+            <span className="font-semibold text-lightColor">$14.99</span>
             <button>
               <i className="fas fa-plus-circle text-sunset text-xl"></i>
             </button>
@@ -74,14 +74,14 @@ const CategorySection = () => {
             alt="Chicken Tonkatsu Ramen"
             className="mx-auto w-24 h-24 rounded-full shadow mb-4"
           />
-          <h1 className="text-center font-bold text-lg">
+          <h1 className="text-center font-bold text-lg text-lightColor">
             Chicken Tonkatsu Ramen
           </h1>
           <p className="text-center text-sm text-lightColor my-2">
             A rich brothy ramen with boiled egg and roasted chicken slices.
           </p>
           <div className="flex justify-between items-center">
-            <span className="font-semibold">$10.99</span>
+            <span className="font-semibold text-lightColor">$10.99</span>
             <button>
               <i className="fas fa-plus-circle text-sunset text-xl"></i>
             </button>

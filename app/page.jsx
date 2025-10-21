@@ -19,7 +19,7 @@ export default function Home() {
         <CategorySection />
         <DishesSection />
         <AboutSection />
-        <MenuSection />
+        
         <ReviewSection />
         <OrderSection />
       </main>
