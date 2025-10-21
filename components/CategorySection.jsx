@@ -19,9 +19,7 @@ const CategorySection = () => {
           </p>
           <div className="flex justify-between items-center">
             <span className="font-semibold text-lightColor">$9.99</span>
-            <button>
-              <i className="fas fa-plus-circle text-sunset text-xl"></i>
-            </button>
+           
           </div>
         </div>
 
@@ -41,9 +39,7 @@ const CategorySection = () => {
           </p>
           <div className="flex justify-between items-center">
             <span className="font-semibold text-lightColor">$12.99</span>
-            <button>
-              <i className="fas fa-plus-circle text-sunset text-xl"></i>
-            </button>
+            
           </div>
         </div>
 
@@ -61,9 +57,7 @@ const CategorySection = () => {
           </p>
           <div className="flex justify-between items-center">
             <span className="font-semibold text-lightColor">$14.99</span>
-            <button>
-              <i className="fas fa-plus-circle text-sunset text-xl"></i>
-            </button>
+           
           </div>
         </div>
 
@@ -82,9 +76,7 @@ const CategorySection = () => {
           </p>
           <div className="flex justify-between items-center">
             <span className="font-semibold text-lightColor">$10.99</span>
-            <button>
-              <i className="fas fa-plus-circle text-sunset text-xl"></i>
-            </button>
+            
           </div>
         </div>
       </div>

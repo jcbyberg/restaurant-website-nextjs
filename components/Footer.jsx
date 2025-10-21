@@ -7,22 +7,22 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>
               <a href="#" className="text-gray-600 hover:text-sunset">
-                <i className="fas fa-map-marker-alt mr-2"></i>Mirpur
+                <i className="fas fa-map-marker-alt mr-2"></i>Toronto
               </a>
             </li>
             <li>
               <a href="#" className="text-gray-600 hover:text-sunset">
-                <i className="fas fa-map-marker-alt mr-2"></i>Dhanmandi
+                <i className="fas fa-map-marker-alt mr-2"></i>Mississauga
               </a>
             </li>
             <li>
               <a href="#" className="text-gray-600 hover:text-sunset">
-                <i className="fas fa-map-marker-alt mr-2"></i>Gulshan
+                <i className="fas fa-map-marker-alt mr-2"></i>Brampton
               </a>
             </li>
             <li>
               <a href="#" className="text-gray-600 hover:text-sunset">
-                <i className="fas fa-map-marker-alt mr-2"></i>Banani
+                <i className="fas fa-map-marker-alt mr-2"></i>Markham
               </a>
             </li>
           </ul>

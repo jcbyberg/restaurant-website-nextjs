@@ -38,9 +38,7 @@ const DishesSection = () => {
             </div>
             <div className="flex justify-between items-center">
               <span className="text-2xl font-bold text-sunset">$14.99</span>
-              <button className="bg-sunset text-white px-4 py-2 rounded hover:bg-jellyBeanBlue transition">
-                Add to Cart
-              </button>
+              
             </div>
           </div>
         </div>
@@ -64,7 +62,7 @@ const DishesSection = () => {
           </div>
           <div className="p-4 text-center">
             <h3 className="text-xl font-bold text-sunset mb-2">
-              Chicken Katsudon
+              Vegatarian
             </h3>
             <div className="flex justify-center items-center space-x-1 mb-2">
               <i className="fas fa-star text-jellyBeanBlue"></i>
@@ -75,9 +73,7 @@ const DishesSection = () => {
             </div>
             <div className="flex justify-between items-center">
               <span className="text-2xl font-bold text-sunset">$8.99</span>
-              <button className="bg-sunset text-white px-4 py-2 rounded hover:bg-jellyBeanBlue transition">
-                Add to Cart
-              </button>
+              
             </div>
           </div>
         </div>
@@ -101,7 +97,7 @@ const DishesSection = () => {
             </div>
           </div>
           <div className="p-4 text-center">
-            <h3 className="text-xl font-bold text-sunset mb-2">Beef Tacos</h3>
+            <h3 className="text-xl font-bold text-sunset mb-2">Tomato Arugula</h3>
             <div className="flex justify-center items-center space-x-1 mb-2">
               <i className="fas fa-star text-jellyBeanBlue"></i>
               <i className="fas fa-star text-jellyBeanBlue"></i>
@@ -111,9 +107,7 @@ const DishesSection = () => {
             </div>
             <div className="flex justify-between items-center">
               <span className="text-2xl font-bold text-sunset">$5.99</span>
-              <button className="bg-sunset text-white px-4 py-2 rounded hover:bg-jellyBeanBlue transition">
-                Add to Cart
-              </button>
+              
             </div>
           </div>
         </div>
@@ -138,7 +132,7 @@ const DishesSection = () => {
           </div>
           <div className="p-4 text-center">
             <h3 className="text-xl font-bold text-sunset mb-2">
-              Belgian Waffles
+              Meat Pizza
             </h3>
             <div className="flex justify-center items-center space-x-1 mb-2">
               <i className="fas fa-star text-jellyBeanBlue"></i>
@@ -149,9 +143,7 @@ const DishesSection = () => {
             </div>
             <div className="flex justify-between items-center">
               <span className="text-2xl font-bold text-sunset">$6.99</span>
-              <button className="bg-sunset text-white px-4 py-2 rounded hover:bg-jellyBeanBlue transition">
-                Add to Cart
-              </button>
+              
             </div>
           </div>
         </div>
@@ -187,9 +179,7 @@ const DishesSection = () => {
             </div>
             <div className="flex justify-between items-center">
               <span className="text-2xl font-bold text-sunset">$9.99</span>
-              <button className="bg-sunset text-white px-4 py-2 rounded hover:bg-jellyBeanBlue transition">
-                Add to Cart
-              </button>
+              
             </div>
           </div>
         </div>
@@ -213,7 +203,7 @@ const DishesSection = () => {
             </div>
           </div>
           <div className="p-4 text-center">
-            <h3 className="text-xl font-bold text-sunset mb-2">Miso Ramen</h3>
+            <h3 className="text-xl font-bold text-sunset mb-2">Deluxe</h3>
             <div className="flex justify-center items-center space-x-1 mb-2">
               <i className="fas fa-star text-jellyBeanBlue"></i>
               <i className="fas fa-star text-jellyBeanBlue"></i>
@@ -223,9 +213,7 @@ const DishesSection = () => {
             </div>
             <div className="flex justify-between items-center">
               <span className="text-2xl font-bold text-sunset">$8.99</span>
-              <button className="bg-sunset text-white px-4 py-2 rounded hover:bg-jellyBeanBlue transition">
-                Add to Cart
-              </button>
+              
             </div>
           </div>
         </div>

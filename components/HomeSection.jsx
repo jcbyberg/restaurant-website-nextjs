@@ -14,9 +14,12 @@ const HomeSection = () => {
         <p className="text-lg text-lightColor mb-6">
           Craving something remarkable? Experience all-Canadian, stone-fired pizza—slow-fermented dough, seasonal toppings, and big flavour. 
           </p>
-        <button className="bg-sunset text-white px-6 py-3 rounded hover:bg-jellyBeanBlue transition">
-          Discover More
-        </button>
+        <a
+          href="#dishes"
+          className="inline-block bg-sunset text-white px-6 py-3 rounded hover:bg-jellyBeanBlue transition"
+        >
+          Menu
+        </a>
       </div>
       <div className="flex-1 relative mt-8 md:mt-0 w-full h-[400px]">
         <img

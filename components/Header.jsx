@@ -57,12 +57,6 @@ const Header = () => {
           >
             <i className="fas fa-heart"></i>
           </a>
-          <a
-            href="#"
-            className="text-2xl text-sunset transition-colors duration-300 hover:text-jellyBeanBlue"
-          >
-            <i className="fas fa-shopping-cart"></i>
-          </a>
           <button
             onClick={toggleNav}
             className="md:hidden text-2xl text-sunset transition-colors duration-300 hover:text-jellyBeanBlue"
